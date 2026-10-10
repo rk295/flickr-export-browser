@@ -1,0 +1,22 @@
+{
+  "name": "flickr-browser",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "main": "server.mjs",
+  "dependencies": {
+    "compression": "^1.7.5",
+    "express": "^4.21.2",
+    "sharp": "^0.33.5"
+  },
+  "devDependencies": {
+    "@eslint/js": "^9.39.5",
+    "eslint": "^9.39.5",
+    "globals": "^17.13.0"
+  },
+  "scripts": {
+    "start": "node server.mjs",
+    "lint": "eslint ."
+  },
+  "license": "MIT"
+}
